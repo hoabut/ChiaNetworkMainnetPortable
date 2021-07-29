@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>chia-blockchain</id>
+    <version>1.1.7</version>
+    <title>Chia Blockchain</title>
+    <authors>Chia Network</authors>
+    <owners>Chia Network</owners>
+    <iconUrl>https://raw.githubusercontent.com/Chia-Network/chia-blockchain/master/electron-react/src/assets/img/chia.ico</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>GUI for Chia Blockchain</description>
+    <copyright>Copyright © 2021 Chia Network</copyright>
+  </metadata>
+</package>
