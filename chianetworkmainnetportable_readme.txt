@@ -5,13 +5,11 @@ Sidenotes, highlights, and more:
 .gitignore (instead get full templates and sources structure via releases):
 # ignore files that exceeds GitHub's file size limit of 100.00 MB
 ChiaNetworkMainnetPortable/App/ChiaNetworkMainnet/Chia.exe
-ChiaNetworkMainnetPortable/App/ChiaNetworkMainnet/resources/
-app.asar
+ChiaNetworkMainnetPortable/App/ChiaNetworkMainnet/resources/app.asar
+
 # ignore files that exceeds GitHub's file size limit of 50.00 MB
-paf_templates_sources/ChiaNetworkMainnetPortable_template_
-source_1.1.7_Dev_Test_1.7z
-paf_binaries/ChiaNetworkMainnetPortable_1.1.7_Dev_Test_1.p
-af.exe
+paf_templates_sources/ChiaNetworkMainnetPortable_template_source_1.1.7_Dev_Test_1.7z
+paf_binaries/ChiaNetworkMainnetPortable_1.1.7_Dev_Test_1.paf.exe
 
 paf_binaries folder: contains all .paf.exe releases (i.e. releases)
 paf_templates_sources folder: contains all PortableApps.com Format templates and sources
@@ -65,9 +63,9 @@ On first run (or even subsequent runs if not added on the first run) the app pop
 
 This can also be accomplish by elevated command line,
 netsh advfirewall firewall add rule name=”start_full_node” dir=in action=allow program=”\app\chianetworkmainnet\resources\app.asar.unpacked\daemon\start_full_node.exe” enable=yes
-netsh advfirewall firewall add rule name=”start_full_node” dir=out action=allow program==”\app\chianetworkmainnet\resources\app.asar.unpacked\daemon\start_full_node.exe”  enable=yes
+netsh advfirewall firewall add rule name=”start_full_node” dir=out action=allow program=”\app\chianetworkmainnet\resources\app.asar.unpacked\daemon\start_full_node.exe”  enable=yes
 netsh advfirewall firewall add rule name=”start_farmer” dir=in action=allow program=”\app\chianetworkmainnet\resources\app.asar.unpacked\daemon\start_farmer.exe” enable=yes
-netsh advfirewall firewall add rule name=”start_farmer” dir=out action=allow program==”\app\chianetworkmainnet\resources\app.asar.unpacked\daemon\start_farmer.exe”  enable=yes
+netsh advfirewall firewall add rule name=”start_farmer” dir=out action=allow program=”\app\chianetworkmainnet\resources\app.asar.unpacked\daemon\start_farmer.exe”  enable=yes
 or by ports,
 netsh advfirewall firewall add rule name=”Open TCP Port 8444” dir=in action=allow protocol=TCP localport=8444
 netsh advfirewall firewall add rule name=”Open UDP Port 8444” dir=in action=allow protocol=UDP localport=8444
