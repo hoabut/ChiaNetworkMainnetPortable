@@ -49,8 +49,8 @@ are use.<br>
 To make the app portable, the PortableApps.com launcher \App\AppInfo\Launcher\ChiaNetworkMainnetPortable.ini has the<br>
 
 [DirectoriesMove]<br>
-.chia=%USERPROFILE%\.chia<br>
-Chia Blockchain=%APPDATA%\Chia Blockchain<br>
+.chia=%USERPROFILE%\\.chia<br>
+Chia Blockchain=%APPDATA%\\Chia Blockchain<br>
 
 which puts the settings and data in the \Data\.chia  and \Data\Chia Blockchain inside the portable app directory.
 
