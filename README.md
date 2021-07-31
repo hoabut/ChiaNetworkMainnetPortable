@@ -52,7 +52,7 @@ To make the app portable, the PortableApps.com launcher \App\AppInfo\Launcher\Ch
 .chia=%USERPROFILE%\\.chia<br>
 Chia Blockchain=%APPDATA%\\Chia Blockchain<br>
 
-which puts the settings and data in the \Data\.chia  and \Data\Chia Blockchain inside the portable app directory.
+which puts the settings and data in the \Data\\.chia  and \Data\Chia Blockchain inside the portable app directory.
 
 Chia Network Mainnet (Chia Blockchain) also uses Python keyring to generate and store all private and public keys with countermeasures.  With that, a warning is display on every run of the portable app, "WARNING! Be sure to write down, backup, and store the ordered 24 words mnemonic seed (the number beside each word is important).  Chia Network Mainnet (Chia Blockchain) works with key management in many different ways from others.  It is HIGHLY recommended or perhaps a requirement to delete all private keys using the Chia GUI via the big red button under Keys if you are no longer using the Chia Network Mainnet (Chia Blockchain) Portable app on the host machine.  The 24 words mnemonic seed is use to recover all private and public keys of the portable app on any host machine you desired."<br>
 This warning is in \App\AppInfo\Launcher\Custom.nsh
