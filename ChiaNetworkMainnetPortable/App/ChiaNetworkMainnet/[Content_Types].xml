@@ -25,26 +25,26 @@
   <Default Extension="dat" ContentType="application/octet" />
   <Default Extension="json" ContentType="application/octet" />
   <Default Extension="psmdcp" ContentType="application/vnd.openxmlformats-package.core-properties+xml" />
-  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/chia_blockchain-1.1.7-py3.7.egg-info/LICENSE" ContentType="application/octet" />
-  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/chia_blockchain-1.1.7-py3.7.egg-info/METADATA" ContentType="application/octet" />
-  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/chia_blockchain-1.1.7-py3.7.egg-info/RECORD" ContentType="application/octet" />
-  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/chia_blockchain-1.1.7-py3.7.egg-info/REQUESTED" ContentType="application/octet" />
-  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/chia_blockchain-1.1.7-py3.7.egg-info/WHEEL" ContentType="application/octet" />
-  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/cryptography-3.4.7-py3.7.egg-info/INSTALLER" ContentType="application/octet" />
-  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/cryptography-3.4.7-py3.7.egg-info/LICENSE" ContentType="application/octet" />
-  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/cryptography-3.4.7-py3.7.egg-info/METADATA" ContentType="application/octet" />
-  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/cryptography-3.4.7-py3.7.egg-info/RECORD" ContentType="application/octet" />
-  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/cryptography-3.4.7-py3.7.egg-info/WHEEL" ContentType="application/octet" />
-  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/importlib_metadata-4.5.0-py3.7.egg-info/INSTALLER" ContentType="application/octet" />
-  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/importlib_metadata-4.5.0-py3.7.egg-info/LICENSE" ContentType="application/octet" />
-  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/importlib_metadata-4.5.0-py3.7.egg-info/METADATA" ContentType="application/octet" />
-  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/importlib_metadata-4.5.0-py3.7.egg-info/RECORD" ContentType="application/octet" />
-  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/importlib_metadata-4.5.0-py3.7.egg-info/WHEEL" ContentType="application/octet" />
-  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/keyring-23.0.1-py3.7.egg-info/INSTALLER" ContentType="application/octet" />
-  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/keyring-23.0.1-py3.7.egg-info/LICENSE" ContentType="application/octet" />
-  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/keyring-23.0.1-py3.7.egg-info/METADATA" ContentType="application/octet" />
-  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/keyring-23.0.1-py3.7.egg-info/RECORD" ContentType="application/octet" />
-  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/keyring-23.0.1-py3.7.egg-info/WHEEL" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/chia_blockchain-1.2.2-py3.9.egg-info/LICENSE" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/chia_blockchain-1.2.2-py3.9.egg-info/METADATA" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/chia_blockchain-1.2.2-py3.9.egg-info/RECORD" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/chia_blockchain-1.2.2-py3.9.egg-info/REQUESTED" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/chia_blockchain-1.2.2-py3.9.egg-info/WHEEL" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/cryptography-3.4.7-py3.9.egg-info/INSTALLER" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/cryptography-3.4.7-py3.9.egg-info/LICENSE" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/cryptography-3.4.7-py3.9.egg-info/METADATA" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/cryptography-3.4.7-py3.9.egg-info/RECORD" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/cryptography-3.4.7-py3.9.egg-info/WHEEL" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/importlib_metadata-4.6.1-py3.9.egg-info/INSTALLER" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/importlib_metadata-4.6.1-py3.9.egg-info/LICENSE" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/importlib_metadata-4.6.1-py3.9.egg-info/METADATA" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/importlib_metadata-4.6.1-py3.9.egg-info/RECORD" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/importlib_metadata-4.6.1-py3.9.egg-info/WHEEL" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/keyring-23.0.1-py3.9.egg-info/INSTALLER" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/keyring-23.0.1-py3.9.egg-info/LICENSE" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/keyring-23.0.1-py3.9.egg-info/METADATA" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/keyring-23.0.1-py3.9.egg-info/RECORD" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/keyring-23.0.1-py3.9.egg-info/WHEEL" ContentType="application/octet" />
   <Override PartName="/lib/net45/LICENSE" ContentType="application/octet" />
   <Default Extension="diff" ContentType="application/octet" />
   <Default Extension="bsdiff" ContentType="application/octet" />
