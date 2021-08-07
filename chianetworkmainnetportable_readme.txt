@@ -8,8 +8,8 @@ ChiaNetworkMainnetPortable/App/ChiaNetworkMainnet/Chia.exe
 ChiaNetworkMainnetPortable/App/ChiaNetworkMainnet/resources/app.asar
 
 # ignore files that exceeds GitHub's file size limit of 50.00 MB
-paf_templates_sources/ChiaNetworkMainnetPortable_template_source_1.1.7_Dev_Test_1.7z
-paf_binaries/ChiaNetworkMainnetPortable_1.1.7_Dev_Test_1.paf.exe
+paf_templates_sources/ChiaNetworkMainnetPortable_template_source_1.2.2_Dev_Test_1.7z
+paf_binaries/ChiaNetworkMainnetPortable_1.2.2_Dev_Test_1.paf.exe
 
 paf_binaries folder: contains all .paf.exe releases (i.e. releases)
 paf_templates_sources folder: contains all PortableApps.com Format templates and sources
@@ -22,14 +22,14 @@ Microsoft Windows 7 64-bit or later
 At least version 4.5 of .NET Framework
 
 For every run a warning will be display,
-"WARNING! Be sure to write down, backup, and store the ordered 24 words mnemonic seed (the number beside each word is important). Chia Network Mainnet (Chia Blockchain) works with key management in many different ways from others. It is HIGHLY recommended or perhaps a requirement to delete all private keys using the Chia GUI via the big red button under Keys if you are no longer using the Chia Network Mainnet (Chia Blockchain) Portable app on the host machine. The 24 words mnemonic seed is use to recover all private and public keys of the portable app on any host machine you desired."
+"WARNING! Be sure to write down, backup, and store the ordered 24 words mnemonic seed (the number beside each word is important).  Chia Network Mainnet (Chia Blockchain) works with key management in its own unique ways.  It is HIGHLY recommended or perhaps a requirement to delete all private keys using the Chia GUI via the keen red button under Keys if you are no longer using the Chia Network Mainnet (Chia Blockchain) Portable app on the host machine.  The 24 words mnemonic seed is use to recover (import) all private and public keys of the portable app on any host machine you desire.  With portable app launched, you can also manage keys via command line: \App\ChiaNetworkMainnet\resources\app.asar.unpacked\daemon>.\chia keys --help; .\chia keys show --show-mnemonic-seed; .\chia keys delete_all; .\chia keys add <mnemonic>"
 
 Windows Installer use by Chia setup does not support Windows 7 64-bit so since this is portable, then
 download .NET Framework 4.5 for Windows 7 64-bit and install on it and then you can run
 the portable app on Windows 7 64-bit.
 Microsoft .NET Framework 4.5: https://www.microsoft.com/en-us/download/details.aspx?id=30653
 
-<p><a href="https://github.com/hoabut/ChiaNetworkMainnetPortable/releases/tag/v1.1.6.991">Download latest release &gt;&gt;</a></p>
+<p><a href="https://github.com/hoabut/ChiaNetworkMainnetPortable/releases/tag/1.2.1.991">Download latest release &gt;&gt;</a></p>
 
 <p><a href="https://portableapps.com/node/64425">Go to the Chia Network Mainnet (Chia Blockchain) Portable Homepage &gt;&gt;</a></p>
 .
@@ -56,7 +56,7 @@ Chia Blockchain=%APPDATA%\Chia Blockchain
 
 which puts the settings and data in the \Data\.chia  and \Data\Chia Blockchain inside the portable app directory.
 
-Chia Network Mainnet (Chia Blockchain) also uses Python keyring to generate and store all private and public keys with countermeasures.  With that, a warning is display on every run of the portable app, "WARNING! Be sure to write down, backup, and store the ordered 24 words mnemonic seed (the number beside each word is important).  Chia Network Mainnet (Chia Blockchain) works with key management in many different ways from others.  It is HIGHLY recommended or perhaps a requirement to delete all private keys using the Chia GUI via the big red button under Keys if you are no longer using the Chia Network Mainnet (Chia Blockchain) Portable app on the host machine.  The 24 words mnemonic seed is use to recover all private and public keys of the portable app on any host machine you desired."
+Chia Network Mainnet (Chia Blockchain) also uses Python keyring to generate and store all private and public keys with countermeasures.  With that, a warning is display on every run of the portable app, "WARNING! Be sure to write down, backup, and store the ordered 24 words mnemonic seed (the number beside each word is important).  Chia Network Mainnet (Chia Blockchain) works with key management in its own unique ways.  It is HIGHLY recommended or perhaps a requirement to delete all private keys using the Chia GUI via the keen red button under Keys if you are no longer using the Chia Network Mainnet (Chia Blockchain) Portable app on the host machine.  The 24 words mnemonic seed is use to recover (import) all private and public keys of the portable app on any host machine you desire.  With portable app launched, you can also manage keys via command line: \App\ChiaNetworkMainnet\resources\app.asar.unpacked\daemon>.\chia keys --help; .\chia keys show --show-mnemonic-seed; .\chia keys delete_all; .\chia keys add <mnemonic>"
 This warning is in \App\AppInfo\Launcher\Custom.nsh
 
 On first run (or even subsequent runs if not added on the first run) the app pops up a dialog box giving the user a chance to add firewall rules pertaining to 8444/TCP (and perhaps 8444/UDP) for peer access.  It will require an elevated privilege in order to add the app or the ports required in the firewall.  However, UPnP is enabled by default so this should be taken care of right from the start as long as UPnP on routers are enabled as well.  Otherwise, configure port forwarding for 8444/TCP and 8444/UDP.
