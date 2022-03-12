@@ -3,5 +3,5 @@ ChiaNetworkMainnetPortable/App/ChiaNetworkMainnet/Chia.exe
 ChiaNetworkMainnetPortable/App/ChiaNetworkMainnet/resources/app.asar
 
 # ignore files that exceeds GitHub's file size limit of 50.00 MB
-paf_templates_sources/ChiaNetworkMainnetPortable_template_source_1.2.2_Dev_Test_1.7z
-paf_binaries/ChiaNetworkMainnetPortable_1.2.2_Dev_Test_1.paf.exe
+paf_templates_sources/ChiaNetworkMainnetPortable_template_source_1.2.11_Dev_Test_2.7z
+paf_binaries/ChiaNetworkMainnetPortable_1.2.11_Dev_Test_2.paf.exe

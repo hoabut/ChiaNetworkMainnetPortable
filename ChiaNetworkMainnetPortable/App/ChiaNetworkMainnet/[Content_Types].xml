@@ -9,42 +9,68 @@
   <Default Extension="pyd" ContentType="application/octet" />
   <Default Extension="exe" ContentType="application/octet" />
   <Default Extension="manifest" ContentType="application/octet" />
+  <Default Extension="txt" ContentType="application/octet" />
   <Default Extension="crt" ContentType="application/octet" />
   <Default Extension="key" ContentType="application/octet" />
   <Default Extension="pyc" ContentType="application/octet" />
   <Default Extension="py" ContentType="application/octet" />
   <Default Extension="pem" ContentType="application/octet" />
-  <Default Extension="txt" ContentType="application/octet" />
   <Default Extension="yaml" ContentType="application/octet" />
   <Default Extension="hex" ContentType="application/octet" />
   <Default Extension="APACHE" ContentType="application/octet" />
   <Default Extension="BSD" ContentType="application/octet" />
   <Default Extension="PSF" ContentType="application/octet" />
-  <Default Extension="h" ContentType="application/octet" />
   <Default Extension="bin" ContentType="application/octet" />
   <Default Extension="dat" ContentType="application/octet" />
   <Default Extension="json" ContentType="application/octet" />
   <Default Extension="psmdcp" ContentType="application/vnd.openxmlformats-package.core-properties+xml" />
-  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/chia_blockchain-1.2.2-py3.9.egg-info/LICENSE" ContentType="application/octet" />
-  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/chia_blockchain-1.2.2-py3.9.egg-info/METADATA" ContentType="application/octet" />
-  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/chia_blockchain-1.2.2-py3.9.egg-info/RECORD" ContentType="application/octet" />
-  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/chia_blockchain-1.2.2-py3.9.egg-info/REQUESTED" ContentType="application/octet" />
-  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/chia_blockchain-1.2.2-py3.9.egg-info/WHEEL" ContentType="application/octet" />
-  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/cryptography-3.4.7-py3.9.egg-info/INSTALLER" ContentType="application/octet" />
-  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/cryptography-3.4.7-py3.9.egg-info/LICENSE" ContentType="application/octet" />
-  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/cryptography-3.4.7-py3.9.egg-info/METADATA" ContentType="application/octet" />
-  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/cryptography-3.4.7-py3.9.egg-info/RECORD" ContentType="application/octet" />
-  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/cryptography-3.4.7-py3.9.egg-info/WHEEL" ContentType="application/octet" />
-  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/importlib_metadata-4.6.1-py3.9.egg-info/INSTALLER" ContentType="application/octet" />
-  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/importlib_metadata-4.6.1-py3.9.egg-info/LICENSE" ContentType="application/octet" />
-  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/importlib_metadata-4.6.1-py3.9.egg-info/METADATA" ContentType="application/octet" />
-  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/importlib_metadata-4.6.1-py3.9.egg-info/RECORD" ContentType="application/octet" />
-  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/importlib_metadata-4.6.1-py3.9.egg-info/WHEEL" ContentType="application/octet" />
-  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/keyring-23.0.1-py3.9.egg-info/INSTALLER" ContentType="application/octet" />
-  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/keyring-23.0.1-py3.9.egg-info/LICENSE" ContentType="application/octet" />
-  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/keyring-23.0.1-py3.9.egg-info/METADATA" ContentType="application/octet" />
-  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/keyring-23.0.1-py3.9.egg-info/RECORD" ContentType="application/octet" />
-  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/keyring-23.0.1-py3.9.egg-info/WHEEL" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/altgraph-0.17.2.dist-info/LICENSE" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/altgraph-0.17.2.dist-info/METADATA" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/altgraph-0.17.2.dist-info/RECORD" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/altgraph-0.17.2.dist-info/WHEEL" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/altgraph-0.17.2.dist-info/zip-safe" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/chiapos-1.0.6.dist-info/INSTALLER" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/chiapos-1.0.6.dist-info/LICENSE" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/chiapos-1.0.6.dist-info/METADATA" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/chiapos-1.0.6.dist-info/RECORD" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/chiapos-1.0.6.dist-info/WHEEL" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/chia_blockchain-1.2.11.dist-info/INSTALLER" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/chia_blockchain-1.2.11.dist-info/LICENSE" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/chia_blockchain-1.2.11.dist-info/METADATA" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/chia_blockchain-1.2.11.dist-info/RECORD" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/chia_blockchain-1.2.11.dist-info/REQUESTED" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/chia_blockchain-1.2.11.dist-info/WHEEL" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/cryptography-3.4.7.dist-info/INSTALLER" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/cryptography-3.4.7.dist-info/LICENSE" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/cryptography-3.4.7.dist-info/METADATA" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/cryptography-3.4.7.dist-info/RECORD" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/cryptography-3.4.7.dist-info/WHEEL" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/importlib_metadata-4.8.1.dist-info/INSTALLER" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/importlib_metadata-4.8.1.dist-info/LICENSE" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/importlib_metadata-4.8.1.dist-info/METADATA" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/importlib_metadata-4.8.1.dist-info/RECORD" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/importlib_metadata-4.8.1.dist-info/WHEEL" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/keyring-23.0.1.dist-info/INSTALLER" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/keyring-23.0.1.dist-info/LICENSE" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/keyring-23.0.1.dist-info/METADATA" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/keyring-23.0.1.dist-info/RECORD" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/keyring-23.0.1.dist-info/WHEEL" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/pyinstaller-4.5.dist-info/INSTALLER" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/pyinstaller-4.5.dist-info/METADATA" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/pyinstaller-4.5.dist-info/RECORD" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/pyinstaller-4.5.dist-info/REQUESTED" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/pyinstaller-4.5.dist-info/WHEEL" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/setuptools-57.4.0.dist-info/INSTALLER" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/setuptools-57.4.0.dist-info/LICENSE" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/setuptools-57.4.0.dist-info/METADATA" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/setuptools-57.4.0.dist-info/RECORD" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/setuptools-57.4.0.dist-info/REQUESTED" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/setuptools-57.4.0.dist-info/WHEEL" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/wheel-0.37.0.dist-info/INSTALLER" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/wheel-0.37.0.dist-info/METADATA" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/wheel-0.37.0.dist-info/RECORD" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/wheel-0.37.0.dist-info/REQUESTED" ContentType="application/octet" />
+  <Override PartName="/lib/net45/resources/app.asar.unpacked/daemon/wheel-0.37.0.dist-info/WHEEL" ContentType="application/octet" />
   <Override PartName="/lib/net45/LICENSE" ContentType="application/octet" />
   <Default Extension="diff" ContentType="application/octet" />
   <Default Extension="bsdiff" ContentType="application/octet" />
